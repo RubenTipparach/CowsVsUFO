@@ -31,7 +31,7 @@ public class CowGenerator : MonoBehaviour {
 		for (int i = 0; i < rows; i++)
 		{
 
-			int rotationSign = Random.Range(0, 1) == 1 ? 1 : -1;
+			int rotationSign = Random.Range(0, 2) == 1 ? 1 : -1;
 
 			float spacing = Random.Range(minSpaceBetweenRowOfCows, maxSpaceBetweenRowOfCows);
 
